@@ -1,10 +1,12 @@
-target/
+target
+*.class
+.settings
+.classpath
+.project
 
-/webapp/WEB-INF/classes
+### FOR IDEA 
+.idea
+*.iml
 
-/.settings
-
-/.classpath
-
-/.project
-/mossle.store
+catalina.home_IS_UNDEFINED
+*.war
